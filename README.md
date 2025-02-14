@@ -86,7 +86,7 @@ Este projeto consiste em dois sistemas integrados
 3. Ou digite 'q' para sair da aplicação.
 
 ## 🚀 Notas de Desenvolvimento
-1.A API utiliza Entity Framework Core com SQL Server para persistência dos dados
+1. A API utiliza Entity Framework Core com SQL Server para persistência dos dados
 2. O cliente Python desabilita a verificação SSL para desenvolvimento local
 3. O sistema suporta arquivos CSV com ou sem a coluna ID
 4. Todos os campos são validados antes da importação
