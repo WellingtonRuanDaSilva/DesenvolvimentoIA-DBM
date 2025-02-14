@@ -40,7 +40,6 @@ Este projeto consiste em dois sistemas integrados
    Add-Migration InitialCreate
    Update-Database
    ```
-7. Execute o projeto (F5 no Visual Studio)
 
 - **Passos para Executar o Cliente Python**
 1. Abra o projeto localizado no diretório /cliente-python no Visual Studio Code
@@ -49,25 +48,26 @@ Este projeto consiste em dois sistemas integrados
    ```sh
    pip install requests
    ```
-4. Execute o cliente:
-   ```sh
-   python client.py
-   ```
 
 ## 📱 Como Usar
 
 - **Executado API C# - Swagger**
-1. Ao executar o API C# será aberto em seu navegador o Swagger.
+1. Execute o projeto (F5 no Visual Studio)
+2. Ao executar o API C# será aberto em seu navegador o Swagger.
 - Clique em POST /api/Person/import >> Try it out >> Escolher arquivo
 - Escolha o arquivo BancoDeDados.csv pressione Abrir e Execute
 - Resposta de Sucesso json:
    ```sh
    "Importados 10 registros com sucesso"
    ```
-2. Pode buscar as pessoas pelo ID no GET /api/people/{id}
-3. Ou listar todoas as pessoas no GET /api/people
+3. Pode buscar as pessoas pelo ID no GET /api/people/{id}
+4. Ou listar todoas as pessoas no GET /api/people
 - **Executado o Cliente Python**
-1. No terminal do Visual Studio Code irá aparecer a mensagem:
+1. Execute o Cliente Python no temrinal do Visual Studio Code: 
+   ```sh
+   python client.py
+   ```
+2. No terminal irá aparecer a mensagem:
    ```sh
    Digite o ID da pessoa (ou 'q' para sair):
    ```
